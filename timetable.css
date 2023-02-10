@@ -1,0 +1,39 @@
+th {
+    padding-left: 20px;
+    border: none;
+}
+
+table {
+    height: 490px;
+    width: 1120px;
+    margin-left: 15px;
+}
+
+.column {
+    padding-left: 20px;
+    border: none;
+    text-align: left;
+}
+
+#grad1 {
+    border: none;
+    background-image: linear-gradient(to right, rgb(133, 84, 254), rgb(182, 109, 242));
+    color: #ffff;
+}
+
+.grad2 {
+    background-image: linear-gradient(to right, rgb(94,29,255), rgb(153, 42, 233));
+    color: #ffff;
+}
+
+tr:hover {
+    /* border: none; */
+    background-image: linear-gradient(to right, rgb(133, 84, 254), rgb(182, 109, 242));
+}
+td:hover{
+    background-image: linear-gradient(rgb(154,87,245),rgb(154,87,245));
+}
+.setbgcolor {
+    border: none;
+    background-image: linear-gradient(to bottom, rgb(129, 45, 245), rgb(140, 49, 242)) !important;
+}
